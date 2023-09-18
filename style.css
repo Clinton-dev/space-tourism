@@ -65,7 +65,7 @@ p {
 body {
   background-color: hsl(var(--clr-dark));
   color: hsl(var(--clr-white));
-
+  font-family: var(--ff-sans-normal);
   line-height: 1.5;
   min-height: 100vh;
 }
