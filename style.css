@@ -177,3 +177,8 @@ select {
   font-weight: 700;
   margin-right: .5rem;
 }
+/* Add margin and border bottom to any element that has a sibling before it */
+.flow > * + * { 
+  margin-top:var(--flow-space,1rem);
+  border: 1px solid red;
+}
